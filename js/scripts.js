@@ -49,22 +49,20 @@ var questions=[
 
 var total = questions.length; // Total number of questions
 
-//following hides the result graph and shows the first question
-window.onload = function(){
-  $("#graph").hide();// hide result graph
+//following shows the first question
+  window.onload = function(){
   changeQuestion();//show first question
 };
 
-//Changes question and option text if question not exhausted or else shows result graph
+//Changes question and option text if question not exhausted
 function changeQuestion(){
   curr_index++;
   $('.myb').prop('disabled', false);
 
   if (curr_index >= total) {
     time_tot = document.getElementById("timer").textContent;
-    var element2 = document.getElementById("canvas");
+    var element2 = document.getElementById("space");
     element2.style.display ='none';
-    //showGraph();
   } else{
     var q_obj = questions[curr_index];
     var q_text = q_obj.question;
@@ -82,7 +80,7 @@ function changeQuestion(){
     document.getElementById("resource").value = quiz_topic;
 
     //Reset the color of option buttons
-    var elements = document.getElementByClassName('option');
+    var elements = document.getElementsByClassName('option');
     for (i=0; i< elements.length; i++){
       ob = elements[i];
       $(ob).removeClass('btn-danger');
@@ -111,9 +109,9 @@ function changeQuestion(){
       }
 
         setTimeout(function(){
-          $("#canvas").fadeOut();
+          $("#space").fadeOut();
           setTimeout(function(){
-            $("#canvas").fadeIn("slow", changeQuestion());
+            $("#space").fadeIn("slow", changeQuestion());
           }, 1000)
         }, 1500);
 
