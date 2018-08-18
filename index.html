@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+      <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css/flat-ui.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/styles.css">
+
+
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+
+      <script src="js/vendor/jquery.min.js"></script>
+      <script src="js/flat-ui.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+      <script src="js/particles-js.js"></script>
+      <script src="js/particles-js-config.js"></script>
+      <script src="js/scripts.js"></script>
+    <title>Quiz Board</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="canvas">
+        <div class="">
+          <div class="particles-js">
+            <hr class="colorgraph">
+          </div>
+        </div>
+        <div id="particles-js">
+          <center>
+            <div class="row">
+              <div class="col-md-4">
+                <br>
+                <img src="img/images.jpeg" alt="image of javascript" class="img-responsive">
+              </div>
+              <div class="col-md-4">
+                <h3 id="resource">QuizBoard</h3>
+                <h6 id="q_id">question 3/5</h6>
+
+                <h4 id="score">Score: 0</h4>
+                <br>
+              </div>
+              <div class="col-md-4">
+                <br>
+                <h5>Total time elapsed:</h5>
+
+                <h5 id="timer"><time>00:00:00</time></h5>
+              </div>
+
+            </div>
+
+            <h4 id="question_text">Question Not Generated</h4>
+            <br>
+            <div class="btn-group-justified">
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                  <button id="option1" class="option btn btn-embossed btn-block btn-hg btn-info" onclick="changeColor(this)">Option Not Generated</button>
+                  <br>
+                </div>
+                <div class="col-md-2">
+                  <button id="option2" class="option btn btn-embossed btn-block btn-hg btn-info" onclick="changeColor(this)">Option Not Generated</button>
+                  <br>
+                </div>
+                <div class="col-md-4"></div>
+              </div>
+              <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                  <button id="option3" class="option btn btn-embossed btn-block btn-hg btn-info" onclick="changeColor(this)">Option Not Generated</button>
+                  <br>
+                </div>
+                <div class="col-md-2">
+                  <button id="option4" class="option btn btn-embossed btn-block btn-hg btn-info" onclick="changeColor(this)">Option Not Generated</button>
+                  <br>
+                </div>
+                <div class="col-md-4"></div>
+              </div>
+            </div>
+
+
+          </center>
+          <hr class="colorgraph">
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
