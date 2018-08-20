@@ -2,7 +2,6 @@
 Its a quiz made using javascript, html with addition bootsrap and jquery
 #### This is an application that makes a quiz, 20/08/2018
 #### By **Abdulfatah Mohamed**
-![ReadmeImg](https://upload.wikimedia.org/wikipedia/commons/f/fc/Triangle_model_of_love.png "Optional title")
 ## Description
 This application is called Quiz-Board. The page contains three questions which appear onxe in a page and fade away.    
 ## Setup/Installation Requirements
