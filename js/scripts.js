@@ -29,6 +29,7 @@ var curr_index = -1;
 var score = 0;//Saves total score
 var scores = []//Saves cumulative score for individual questions
 
+//Store all questions in an array
 var questions=[
     {
     question: "What is hypertext markup languge in short?",
