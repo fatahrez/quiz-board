@@ -3,7 +3,7 @@ Its a quiz made using javascript, html with addition bootsrap and jquery
 #### This is an application that makes a quiz, 20/08/2018
 #### By **Abdulfatah Mohamed**
 ## Description
-This application is called Quiz-Board. The page contains three questions which appear onxe in a page and fade away.    
+This application is called Quiz-Board. The page contains three questions which appear once in a page and fade away. The score is shown above together with the current question.    
 ## Setup/Installation Requirements
 * Make sure your computer has an editor you can use atom(preferred), sublime text or notepad++
 * Make sure your browser is Javascript enabled. Preferably use Chrome or Mozilla Firefox. 
